@@ -127,7 +127,6 @@ def game(player1, player2):
 			# 白が置けたらゲーム続行
 			on_gaming = put_and_reverse(board, position, WHITE)
 	show_board(board)  # 最後の結果を表示!
-
 # AI 用のインターフェース
   
 YUSEN=[0,5,30,35,2,3,17,23,12,18,32,33,9,16,8,15,22,14,21,13,20,27,19,26,4,11,1,29,6,34,24,31,10,7,28,25]
